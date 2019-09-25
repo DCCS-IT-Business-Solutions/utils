@@ -2,7 +2,7 @@
   "name": "@dccs/utils",
   "version": "0.2.0",
   "description": "",
-  "main": "preprocessor.js",
+  "main": "lib/index.js",
   "scripts": {
     "watch": "tsc --watch",
     "build": "run-s lint test transpile",
