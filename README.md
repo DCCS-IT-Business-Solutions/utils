@@ -28,6 +28,22 @@ await sleep(1000);
 console.log("after 1 second");
 ```
 
+## timespanToText
+
+Returns a `string` representing the time that has passed between the two dates.
+
+```javascript
+window.console.log(timespanToText(startDate, endDate));
+```
+
+| Timespan      | Result                      |
+| ------------- | --------------------------- |
+| same hour     | `10:15 - 45 15.Dec.2020`    |
+| same day      | `15:30 - 18:20 10.Jun.2019` |
+| same month    | `10 - 15.Dec.2022`          |
+| same year     | `10.Nov - 5.Nov.2010`       |
+| differnt year | `10.Nov.2010 - 5.Jun.2011`  |
+
 ## Contributing
 
 ### License
