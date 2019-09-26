@@ -31,7 +31,7 @@ export function timeSpanToText({ start, end }: { start: Date; end: Date }) {
 }
 
 function decideYearFormat(date: Date) {
-  return sameCentruy(date) ? "YY" : "YYYY";
+  return sameCentruy(date) ? "YYYY" : "YYYY";
 }
 
 function sameCentruy(date: Date) {
