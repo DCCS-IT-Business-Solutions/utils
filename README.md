@@ -33,7 +33,7 @@ console.log("after 1 second");
 Returns a `string` representing the time that has passed between the two dates.
 
 ```javascript
-window.console.log(timespanToText(startDate, endDate));
+window.console.log(timeSpanToText(startDate, endDate));
 ```
 
 | Timespan      | Result                      |
