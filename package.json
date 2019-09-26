@@ -14,7 +14,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@types/moment": "^2.13.0"
+  },
   "peerDependencies": {
     "@types/react": "16.8.25",
     "@types/react-dom": "16.8.5"
