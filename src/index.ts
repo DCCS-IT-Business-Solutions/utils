@@ -3,4 +3,3 @@ export function sleep(ms: number) {
 }
 
 export * from "./HighlightQuery";
-export * from "./timespanToText";
