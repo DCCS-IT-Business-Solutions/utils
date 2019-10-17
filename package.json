@@ -1,6 +1,6 @@
 {
   "name": "@dccs/utils",
-  "version": "0.3.1",
+  "version": "0.2.2",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -14,9 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@types/moment": "^2.13.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@types/react": "16.8.25",
     "@types/react-dom": "16.8.5"
