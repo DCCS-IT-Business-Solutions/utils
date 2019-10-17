@@ -37,6 +37,14 @@ it("should highlight 'test'", () => {
   expect(text).toBe("test");
 });
 
+it("should not highlight anything, query undefined", () => {
+  const sut = shallow(
+    HighlightQuery("this is a test string", undefined)
+  ).setProps({});
+
+  expect(sut.children("span").length).toBe(0);
+});
+
 it("should not highlight anything", () => {
   const sut = shallow(HighlightQuery("this is a test string", "")).setProps({});
 

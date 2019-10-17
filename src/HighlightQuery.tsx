@@ -7,7 +7,7 @@ export function HighlightQuery(
   ...others: any[]
 ) {
   if (
-    query === null ||
+    !query ||
     query.length === 0 ||
     text === null ||
     text.length === 0
