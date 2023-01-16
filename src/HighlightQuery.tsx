@@ -1,8 +1,8 @@
 import * as React from "react";
 
 export function HighlightQuery(
-  text: string,
-  query: string,
+  text: string | null,
+  query: string | null,
   style?: React.CSSProperties,
   ...others: any[]
 ) {
